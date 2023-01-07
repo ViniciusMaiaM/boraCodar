@@ -33,6 +33,8 @@ main{
 }
 
 .description {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -92,4 +94,16 @@ main{
     font-style: normal;
     display: flex;
     justify-content: space-between;
+}
+
+.control img{
+    width: 35px;
+}
+
+.control img:hover {
+    transform: scale(1.5);
+}
+
+.control img:hover {
+    transition: transform 0.3s;
 }
