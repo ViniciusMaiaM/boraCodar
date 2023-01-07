@@ -1,0 +1,25 @@
+:root{
+    --background: #0F0D13;
+    --geral: #2A2141;
+    --text: #E1E1E6;
+    --other: #C4C4CC;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+}
+
+.info-slide{
+    font-style: normal;
+}
