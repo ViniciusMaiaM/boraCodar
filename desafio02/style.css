@@ -3,11 +3,101 @@
     --font: #271A45; 
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%
+}
+
+
 body{
     width: 100%;
     height: 100%;
-    display: flex;
+    display: grid;
+    margin: 0;
     align-items: center;
     justify-content: center;
     background-color: var(--background);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+#codigo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    color: var(--font);
+    text-transform: uppercase;
+}
+
+#nome{
+    font-family: 'Crimson Pro', serif;
+    color: var(--font);
+    font-size: xxx-large;
+}
+
+#preco{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size:larger;
+    color: var(--font);
+    opacity: 64%;
+}
+
+figure{
+    margin: 0;
+}
+
+button {
+    background-color: var(--background);
+    font-family: 'Lato', sans-serif;
+    font-size: inherit;
+    text-transform: uppercase;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: var(--font);
+    border: var(--font) solid 1px;
+}
+
+button:hover {
+    background-color: var(--font);
+    color: white;
+}
+
+.imagem #virar{
+    display: flex;
+    position: absolute;
+    width: 34px;
+    height: 23px;
+}
+
+#sofa{
+    width: 449px;
+    height: 253px;
 }
