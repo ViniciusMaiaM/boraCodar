@@ -1,4 +1,4 @@
-<h1> Player de música </h1>
+<h1 align="center"> Player de música </h1>
 
 <div align="center">
     <img src="./src/boraCodar.png">
